@@ -27,23 +27,23 @@ jobs:
       run: |
          #添加Misc&crawler
          curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/utils/Misc.java > app/src/main/java/com/github/catvod/utils/Misc.java
-         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/crawler/SpiderReq.java > app/src/main/java/com/github/catvod/crawler/SpiderReq.java
+         
 
        
         
          #添加AppYsV2
          curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/AppYsV2.java > app/src/main/java/com/github/catvod/spider/AppYsV2.java
          sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/AppYsV2.java
-         #curl -L https://github.com/xxxyyy888/CatVodSpider/raw/main/app/src/main/java/com/github/catvod/spider/AppYsV2.java > app/src/main/java/com/github/catvod/spider/AppYsV2.java
+         
 
          #添加IQIYI&MGTV&DOUBAN
          
-         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/IQIYI.java > app/src/main/java/com/github/catvod/spider/IQIYI.java
-         sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/IQIYI.java
-         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/MGTV.java > app/src/main/java/com/github/catvod/spider/MGTV.java
-         sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/MGTV.java
-         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java > app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java
-         sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java
+         #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/IQIYI.java > app/src/main/java/com/github/catvod/spider/IQIYI.java
+         #sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/IQIYI.java
+         #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/MGTV.java > app/src/main/java/com/github/catvod/spider/MGTV.java
+         #sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/MGTV.java
+         #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java > app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java
+         #sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java
 
          
          #添加Live2Vod
@@ -63,15 +63,12 @@ jobs:
          
          rm -rf app/src/main/java/com/github/catvod/spider/Ysj.java
          rm -rf app/src/main/java/com/github/catvod/spider/Dm84.java
-         #rm -rf app/src/main/java/com/github/catvod/spider/Dovx.java
          rm -rf app/src/main/java/com/github/catvod/spider/Doll.java
          rm -rf app/src/main/java/com/github/catvod/spider/Ying.java
-         rm -rf app/src/main/java/com/github/catvod/spider/TuGou.java
          rm -rf app/src/main/java/com/github/catvod/spider/Miss.java
          rm -rf app/src/main/java/com/github/catvod/spider/Jable.java
          rm -rf app/src/main/java/com/github/catvod/spider/Supjav.java
          rm -rf app/src/main/java/com/github/catvod/spider/Hanime.java
-         #rm -rf app/src/main/java/com/github/catvod/spider/Zhaozy.java                  
          rm -rf app/src/main/java/com/github/catvod/spider/Eighteen.java
 
     - name: Build the app
