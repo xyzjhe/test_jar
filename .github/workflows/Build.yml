@@ -25,8 +25,11 @@ jobs:
     - name: Customize Spider
       working-directory: ./project
       run: |
-         #添加Misc
+         #添加Misc&crawler
          curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/utils/Misc.java > app/src/main/java/com/github/catvod/utils/Misc.java
+         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/crawler/SpiderReq.java > app/src/main/java/com/github/catvod/crawler/SpiderReq.java
+
+       
         
          #添加AppYsV2
          curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/AppYsV2.java > app/src/main/java/com/github/catvod/spider/AppYsV2.java
