@@ -39,7 +39,7 @@ jobs:
          sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/Live2Vod.java
 
          #添加JavDb from cnxunyang
-         curl -L https://github.com/cnxuyang/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/JavDb.java > app/src/main/java/com/github/catvod/spider/JavDb.java
+         #curl -L https://github.com/cnxuyang/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/JavDb.java > app/src/main/java/com/github/catvod/spider/JavDb.java
 
          #添加wogg&oiltea         
          curl -L https://github.com/oiltea/CatVodSpider/raw/main/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
