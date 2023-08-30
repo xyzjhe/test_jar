@@ -43,10 +43,6 @@ jobs:
          #curl -L https://github.com/cnxuyang/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/JavDb.java > app/src/main/java/com/github/catvod/spider/JavDb.java
 
          #添加wogg&oiltea         
-         #curl -L https://github.com/oiltea/CatVodSpider/raw/main/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
-         #curl -L https://github.com/oiltea/CatVodSpider/raw/main/app/src/main/java/com/github/catvod/spider/Ali.java > app/src/main/java/com/github/catvod/spider/Ali.java
-         #curl -L https://github.com/oiltea/CatVodSpider/raw/main/app/src/main/java/com/github/catvod/bean/Vod.java > app/src/main/java/com/github/catvod/bean/Vod.java
-         #curl -L https://github.com/oiltea/CatVodSpider/raw/main/app/src/main/java/com/github/catvod/ali/API.java > app/src/main/java/com/github/catvod/ali/API.java
          #curl -L https://github.com/oiltea/CatVodSpider/blob/7f8873c20c4fa139b6d44cb11c3981a4bfebe6b2/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
          #curl -L https://github.com/oiltea/CatVodSpider/raw/9ab5cc627be4096db11bca9ee9177c13014ddadd/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
           
