@@ -56,7 +56,9 @@ jobs:
          sed -i 's/https:\/\/s1.ax1x.com\/2023\/05\/04\/p9tgI81.png/http:\/\/image.coolapk.com\/feed\/2023\/0817\/10\/15491134_1b0929b1_9775_1639_274@512x512.png/g' app/src/main/java/com/github/catvod/utils/Image.java
          #cp ../app/src/main/java/com/github/catvod/spider/YiSo.java app/src/main/java/com/github/catvod/spider/YiSo.java
          #cp ../app/src/main/java/com/github/catvod/spider/Zhaozy.java app/src/main/java/com/github/catvod/spider/Zhaozy.java
-    
+
+         curl -L  https://github.com/FongMi/CatVodSpider/blob/747b71b526cbddce9eb76fa6a8eef057747cfc34/app/src/main/java/com/github/catvod/spider/YiSo.java > app/src/main/java/com/github/catvod/spider/YiSo.java
+        
          #del lao six
          rm -rf app/src/main/java/com/github/catvod/spider/Doll.java
          rm -rf app/src/main/java/com/github/catvod/spider/Eighteen.java
