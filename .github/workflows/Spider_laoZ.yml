@@ -53,7 +53,7 @@ jobs:
          
          #cp ../app/src/main/java/com/github/catvod/spider/Zhaozy.java app/src/main/java/com/github/catvod/spider/Zhaozy.java
 
-         cp ../app/src/main/java/com/github/catvod/spider/YiSo.java app/src/main/java/com/github/catvod/spider/YiSo.java
+         #cp ../app/src/main/java/com/github/catvod/spider/YiSo.java app/src/main/java/com/github/catvod/spider/YiSo.java
          
          #curl -L  https://github.com/FongMi/CatVodSpider/blob/747b71b526cbddce9eb76fa6a8eef057747cfc34/app/src/main/java/com/github/catvod/spider/YiSo.java > app/src/main/java/com/github/catvod/spider/YiSo.java
         
