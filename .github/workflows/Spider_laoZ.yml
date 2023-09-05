@@ -45,7 +45,7 @@ jobs:
          #添加wogg&oiltea         
          #curl -L https://github.com/oiltea/CatVodSpider/blob/7f8873c20c4fa139b6d44cb11c3981a4bfebe6b2/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
          #curl -L https://github.com/oiltea/CatVodSpider/raw/9ab5cc627be4096db11bca9ee9177c13014ddadd/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
-         curl -L https://github.com/oiltea/CatVodSpider/raw/9ab5cc627be4096db11bca9ee9177c13014ddadd/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wooggg.java
+         #curl -L https://github.com/oiltea/CatVodSpider/raw/9ab5cc627be4096db11bca9ee9177c13014ddadd/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wooggg.java
           
          #简体化阿里云盘
          sed -i 's/原畫/原画(4K)/g;s/普畫/普画(1080P)/g' app/src/main/java/com/github/catvod/spider/Ali.java
