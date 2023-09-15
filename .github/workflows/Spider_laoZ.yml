@@ -31,8 +31,8 @@ jobs:
          curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/Douban.java > app/src/main/java/com/github/catvod/spider/Douban.java
                  
          #添加AppYsV2
-         curl -L https://raw.githubusercontent.com/CatVodTVOfficial/CatVodTVSpider/master/app/src/main/java/com/github/catvod/spider/AppYsV2.java > app/src/main/java/com/github/catvod/spider/AppYsV2.java
-         sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/AppYsV2.java
+         #curl -L https://raw.githubusercontent.com/CatVodTVOfficial/CatVodTVSpider/master/app/src/main/java/com/github/catvod/spider/AppYsV2.java > app/src/main/java/com/github/catvod/spider/AppYsV2.java
+         #sed -i 's/com.github.catvod.utils.okhttp.OkHttpUtil/com.github.catvod.net.OkHttp/g;s/OkHttpUtil/OkHttp/g' app/src/main/java/com/github/catvod/spider/AppYsV2.java
                
          #添加wogg&oiltea         
          #curl -L https://github.com/oiltea/CatVodSpider/blob/7f8873c20c4fa139b6d44cb11c3981a4bfebe6b2/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
