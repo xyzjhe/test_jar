@@ -32,9 +32,9 @@ jobs:
          #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/utils/Misc.java > app/src/main/java/com/github/catvod/utils/Misc.java
          
          #添加douban&&360
-         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java > app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java
+        #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java > app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java
          curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/Douban.java > app/src/main/java/com/github/catvod/spider/Douban.java
-         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/SP360.java > app/src/main/java/com/github/catvod/spider/SP360.java
+        #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/SP360.java > app/src/main/java/com/github/catvod/spider/SP360.java
                  
          #简体化阿里云盘
          sed -i 's/原畫/原画(4K)/g;s/普畫/普画(1080P)/g' app/src/main/java/com/github/catvod/spider/Ali.java
