@@ -33,7 +33,7 @@ jobs:
          
          #添加douban&&360
          #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java > app/src/main/java/com/github/catvod/spider/DoubanForTVBox.java
-         curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/Douban.java > app/src/main/java/com/github/catvod/spider/Douban.java
+         #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/Douban.java > app/src/main/java/com/github/catvod/spider/Douban.java
          #curl -L https://github.com/zhixc/CatVodTVSpider/raw/main/app/src/main/java/com/github/catvod/spider/SP360.java > app/src/main/java/com/github/catvod/spider/SP360.java
                  
          #简体化阿里云盘
