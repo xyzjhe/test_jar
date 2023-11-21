@@ -1,4 +1,4 @@
-name: Spider
+name: FM_Spider
 
 on:
   workflow_dispatch:
