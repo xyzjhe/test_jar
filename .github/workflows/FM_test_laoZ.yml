@@ -25,7 +25,6 @@ jobs:
     - name: Customize Spider
       working-directory: ./project
       run: |
-
          sed -i 's/gradle-7.4.2-all/gradle-7.5-bin/g' gradle/wrapper/gradle-wrapper.properties
 
          #添加360
