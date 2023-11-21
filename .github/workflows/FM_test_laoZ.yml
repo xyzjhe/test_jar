@@ -1,4 +1,4 @@
-name: FM_test_laoZ
+name: Spider
 
 on:
   workflow_dispatch:
@@ -22,9 +22,9 @@ jobs:
         rm -rf jar/custom_spider.jar
         git clone --recurse-submodules https://github.com/FongMi/CatVodSpider project
       
-     - name: Customize Spider
-       working-directory: ./project
-       run: |
+    - name: Customize Spider
+      working-directory: ./project
+      run: |
          sed -i 's/gradle-7.4.2-all/gradle-7.5-bin/g' gradle/wrapper/gradle-wrapper.properties
 
          #添加360
