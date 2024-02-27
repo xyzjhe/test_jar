@@ -37,7 +37,7 @@ jobs:
          
          #del lao six
          rm -rf app/src/main/java/com/github/catvod/spider/Doll.java
-         rm -rf app/src/main/java/com/github/catvod/spider/Eighteen.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/Eighteen.java
          rm -rf app/src/main/java/com/github/catvod/spider/Jable.java
          rm -rf app/src/main/java/com/github/catvod/spider/Miss.java
          rm -rf app/src/main/java/com/github/catvod/spider/Supjav.java
