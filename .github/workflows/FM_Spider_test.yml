@@ -20,7 +20,8 @@ jobs:
       run: |
         rm -rf project
         rm -rf jar/custom_spider.jar
-        git clone --recurse-submodules https://github.com/FongMi/CatVodSpider project
+        #git clone --recurse-submodules https://github.com/FongMi/CatVodSpider project
+        git clone --recurse-submodules https://github.com/xyzjhe/CatVodSpider project
       
     - name: Customize Spider
       working-directory: ./project
@@ -38,7 +39,6 @@ jobs:
          curl -L https://raw.githubusercontent.com/FongMi/CatVodSpider/56e60854cfc91282548e2686e7c79e00bf11987a/app/src/main/java/com/github/catvod/spider/Dovx.java > app/src/main/java/com/github/catvod/spider/Dovx.java
 
          #增加zhixc爬虫
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/utils/okhttp/OkHttpUtil.java > app/src/main/java/com/github/catvod/utils/okhttp/OkHttpUtil.java
          curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Anime1.java > app/src/main/java/com/github/catvod/spider/Anime1.java
          curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Live2Vod.java > app/src/main/java/com/github/catvod/spider/Live2Vod.java
          curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/LocalFileV2.java > app/src/main/java/com/github/catvod/spider/LocalFileV2.java
