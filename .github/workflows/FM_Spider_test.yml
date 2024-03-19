@@ -34,6 +34,8 @@ jobs:
          cp ../app/src/main/java/com/github/catvod/spider/Wwgg.java app/src/main/java/com/github/catvod/spider/Wwgg.java
          cp ../app/src/main/java/com/github/catvod/spider/Tudou.java app/src/main/java/com/github/catvod/spider/Tudou.java
          cp ../app/src/main/java/com/github/catvod/spider/Douban.java app/src/main/java/com/github/catvod/spider/Douban.java
+         cp ../app/src/main/java/com/github/catvod/spider/Dm84.java app/src/main/java/com/github/catvod/spider/Dm84.java
+         cp ../app/src/main/java/com/github/catvod/spider/AppYsV2.java app/src/main/java/com/github/catvod/spider/AppYsV2.java
 
          #补回Dovx
          curl -L https://raw.githubusercontent.com/FongMi/CatVodSpider/56e60854cfc91282548e2686e7c79e00bf11987a/app/src/main/java/com/github/catvod/spider/Dovx.java > app/src/main/java/com/github/catvod/spider/Dovx.java
