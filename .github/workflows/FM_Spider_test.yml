@@ -51,7 +51,10 @@ jobs:
          curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/SixV.java > app/src/main/java/com/github/catvod/spider/SixV.java
          curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Voflix.java > app/src/main/java/com/github/catvod/spider/Voflix.java
          curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/XingYiYing.java > app/src/main/java/com/github/catvod/spider/XingYiYing.java
-
+         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Yj1211.java > app/src/main/java/com/github/catvod/spider/Yj1211.java
+         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/IQIYI.java > app/src/main/java/com/github/catvod/spider/IQIYI.java
+         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/MGTV.java > app/src/main/java/com/github/catvod/spider/MGTV.java
+         
          #增加mymine爬虫&smb
          curl -L https://raw.githubusercontent.com/mymine/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Smb4nas.java > app/src/main/java/com/github/catvod/spider/Smb4nas.java
          curl -L https://raw.githubusercontent.com/mymine/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/SmbProxy.java > app/src/main/java/com/github/catvod/spider/SmbProxy.java
