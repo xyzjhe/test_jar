@@ -35,26 +35,26 @@ jobs:
          cp ../app/src/main/java/com/github/catvod/spider/Wnlg.java app/src/main/java/com/github/catvod/spider/Wnlg.java
          cp ../app/src/main/java/com/github/catvod/spider/Wwgg.java app/src/main/java/com/github/catvod/spider/Wwgg.java
          cp ../app/src/main/java/com/github/catvod/spider/Tudou.java app/src/main/java/com/github/catvod/spider/Tudou.java
-         cp ../app/src/main/java/com/github/catvod/spider/Douban.java app/src/main/java/com/github/catvod/spider/Douban.java
-         cp ../app/src/main/java/com/github/catvod/spider/Dm84.java app/src/main/java/com/github/catvod/spider/Dm84.java
-         cp ../app/src/main/java/com/github/catvod/spider/AppYsV2.java app/src/main/java/com/github/catvod/spider/AppYsV2.java
+         #cp ../app/src/main/java/com/github/catvod/spider/Douban.java app/src/main/java/com/github/catvod/spider/Douban.java
+         #cp ../app/src/main/java/com/github/catvod/spider/Dm84.java app/src/main/java/com/github/catvod/spider/Dm84.java
+         #cp ../app/src/main/java/com/github/catvod/spider/AppYsV2.java app/src/main/java/com/github/catvod/spider/AppYsV2.java
 
          #补回Dovx
          curl -L https://raw.githubusercontent.com/FongMi/CatVodSpider/56e60854cfc91282548e2686e7c79e00bf11987a/app/src/main/java/com/github/catvod/spider/Dovx.java > app/src/main/java/com/github/catvod/spider/Dovx.java
 
          #增加zhixc爬虫
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Anime1.java > app/src/main/java/com/github/catvod/spider/Anime1.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Live2Vod.java > app/src/main/java/com/github/catvod/spider/Live2Vod.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/LocalFileV2.java > app/src/main/java/com/github/catvod/spider/LocalFileV2.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/NongMing.java > app/src/main/java/com/github/catvod/spider/NongMing.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/PiaoHua.java > app/src/main/java/com/github/catvod/spider/PiaoHua.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/SP360.java > app/src/main/java/com/github/catvod/spider/SP360.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/SixV.java > app/src/main/java/com/github/catvod/spider/SixV.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Voflix.java > app/src/main/java/com/github/catvod/spider/Voflix.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/XingYiYing.java > app/src/main/java/com/github/catvod/spider/XingYiYing.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Yj1211.java > app/src/main/java/com/github/catvod/spider/Yj1211.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/IQIYI.java > app/src/main/java/com/github/catvod/spider/IQIYI.java
-         curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/MGTV.java > app/src/main/java/com/github/catvod/spider/MGTV.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Anime1.java > app/src/main/java/com/github/catvod/spider/Anime1.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Live2Vod.java > app/src/main/java/com/github/catvod/spider/Live2Vod.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/LocalFileV2.java > app/src/main/java/com/github/catvod/spider/LocalFileV2.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/NongMing.java > app/src/main/java/com/github/catvod/spider/NongMing.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/PiaoHua.java > app/src/main/java/com/github/catvod/spider/PiaoHua.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/SP360.java > app/src/main/java/com/github/catvod/spider/SP360.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/SixV.java > app/src/main/java/com/github/catvod/spider/SixV.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Voflix.java > app/src/main/java/com/github/catvod/spider/Voflix.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/XingYiYing.java > app/src/main/java/com/github/catvod/spider/XingYiYing.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Yj1211.java > app/src/main/java/com/github/catvod/spider/Yj1211.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/IQIYI.java > app/src/main/java/com/github/catvod/spider/IQIYI.java
+         #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/MGTV.java > app/src/main/java/com/github/catvod/spider/MGTV.java
          #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spiderCs1369.java > app/src/main/java/com/github/catvod/spider/Cs1369.java
          #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/DyGang.java > app/src/main/java/com/github/catvod/spider/DyGang.java
          #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Xunlei8.java > app/src/main/java/com/github/catvod/spider/Xunlei8.java
