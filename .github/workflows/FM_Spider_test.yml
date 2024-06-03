@@ -20,8 +20,8 @@ jobs:
       run: |
         rm -rf project
         rm -rf jar/custom_spider.jar
-        #git clone --recurse-submodules https://github.com/FongMi/CatVodSpider project
-        git clone --recurse-submodules https://github.com/xyzjhe/CatVodSpider project
+        git clone --recurse-submodules https://github.com/FongMi/CatVodSpider project
+        #git clone --recurse-submodules https://github.com/xyzjhe/CatVodSpider project
       
     - name: Customize Spider
       working-directory: ./project
@@ -76,13 +76,13 @@ jobs:
 
                  
          #del lao six
-         rm -rf app/src/main/java/com/github/catvod/spider/Doll.java
-         rm -rf app/src/main/java/com/github/catvod/spider/Eighteen.java
-         rm -rf app/src/main/java/com/github/catvod/spider/Jable.java
-         rm -rf app/src/main/java/com/github/catvod/spider/JavDb.java
-         rm -rf app/src/main/java/com/github/catvod/spider/Miss.java
-         rm -rf app/src/main/java/com/github/catvod/spider/Supjav.java
-         rm -rf app/src/main/java/com/github/catvod/spider/Hanime.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/Doll.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/Eighteen.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/Jable.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/JavDb.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/Miss.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/Supjav.java
+         #rm -rf app/src/main/java/com/github/catvod/spider/Hanime.java
                                  
     - name: Build the Jar
       working-directory: ./project
