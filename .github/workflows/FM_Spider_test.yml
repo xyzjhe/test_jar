@@ -37,9 +37,8 @@ jobs:
          cp ../app/src/main/java/com/github/catvod/spider/Wwgg.java app/src/main/java/com/github/catvod/spider/Wwgg.java
          cp ../app/src/main/java/com/github/catvod/spider/Tudou.java app/src/main/java/com/github/catvod/spider/Tudou.java
          cp ../app/src/main/java/com/github/catvod/spider/Duoduo.java app/src/main/java/com/github/catvod/spider/Duoduo.java
-         cp ../app/src/main/java/com/github/catvod/spider/Nongm.java app/src/main/java/com/github/catvod/spider/Nongm.java
-
          
+         #cp ../app/src/main/java/com/github/catvod/spider/Nongm.java app/src/main/java/com/github/catvod/spider/Nongm.java
          #cp ../app/src/main/java/com/github/catvod/spider/Douban.java app/src/main/java/com/github/catvod/spider/Douban.java
          #cp ../app/src/main/java/com/github/catvod/spider/Dm84.java app/src/main/java/com/github/catvod/spider/Dm84.java
          #cp ../app/src/main/java/com/github/catvod/spider/AppYsV2.java app/src/main/java/com/github/catvod/spider/AppYsV2.java
