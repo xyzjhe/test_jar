@@ -26,7 +26,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class FengGo extends Spider {
-    private static String siteUrl ="http://m.fenggoudy2.com";
+    private static String siteUrl ="https://m.itvbox3.com";
 
     private HashMap<String, String> getHeader() {
         HashMap<String, String> headers = new HashMap<>();
