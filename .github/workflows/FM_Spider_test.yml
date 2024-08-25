@@ -32,24 +32,14 @@ jobs:
          sed -i 's/www.aliyundrive.com/(www.alipan.com|www.aliyundrive.com)/g' app/src/main/java/com/github/catvod/spider/Zhaozy.java
          sed -i 's/api2.rinhome.com/112.124.0.131:20000/g' app/src/main/java/com/github/catvod/spider/Jianpian.java
          
-         cp ../app/src/main/java/com/github/catvod/spider/Wobg.java app/src/main/java/com/github/catvod/spider/Wobg.java
-         cp ../app/src/main/java/com/github/catvod/spider/Wnlg.java app/src/main/java/com/github/catvod/spider/Wnlg.java
-         cp ../app/src/main/java/com/github/catvod/spider/Wwgg.java app/src/main/java/com/github/catvod/spider/Wwgg.java
-         cp ../app/src/main/java/com/github/catvod/spider/Tudou.java app/src/main/java/com/github/catvod/spider/Tudou.java
-         cp ../app/src/main/java/com/github/catvod/spider/Duoduo.java app/src/main/java/com/github/catvod/spider/Duoduo.java
-         
          cp ../app/src/main/java/com/github/catvod/spider/Nongm.java app/src/main/java/com/github/catvod/spider/Nongm.java
          cp ../app/src/main/java/com/github/catvod/spider/FengGo.java app/src/main/java/com/github/catvod/spider/FengGo.java
          cp ../app/src/main/java/com/github/catvod/spider/Ikanbot.java app/src/main/java/com/github/catvod/spider/Ikanbot.java
-         cp ../app/src/main/java/com/github/catvod/spider/Freeok.java app/src/main/java/com/github/catvod/spider/Freeok.java
+         cp ../app/src/main/java/com/github/catvod/spider/ChangZhang.java app/src/main/java/com/github/catvod/spider/ChangZhang.java
          
-         #cp ../app/src/main/java/com/github/catvod/spider/Douban.java app/src/main/java/com/github/catvod/spider/Douban.java
-         #cp ../app/src/main/java/com/github/catvod/spider/Dm84.java app/src/main/java/com/github/catvod/spider/Dm84.java
-         #cp ../app/src/main/java/com/github/catvod/spider/AppYsV2.java app/src/main/java/com/github/catvod/spider/AppYsV2.java
+        
 
-         #补回Dovx
-         curl -L https://raw.githubusercontent.com/FongMi/CatVodSpider/56e60854cfc91282548e2686e7c79e00bf11987a/app/src/main/java/com/github/catvod/spider/Dovx.java > app/src/main/java/com/github/catvod/spider/Dovx.java
-
+        
          #增加zhixc爬虫
          #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Anime1.java > app/src/main/java/com/github/catvod/spider/Anime1.java
          #curl -L https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/app/src/main/java/com/github/catvod/spider/Live2Vod.java > app/src/main/java/com/github/catvod/spider/Live2Vod.java
