@@ -40,6 +40,9 @@ jobs:
          
          cp ../app/src/main/java/com/github/catvod/spider/Nongm.java app/src/main/java/com/github/catvod/spider/Nongm.java
          cp ../app/src/main/java/com/github/catvod/spider/FengGo.java app/src/main/java/com/github/catvod/spider/FengGo.java
+         cp ../app/src/main/java/com/github/catvod/spider/Ikanbot.java app/src/main/java/com/github/catvod/spider/Ikanbot.java
+         cp ../app/src/main/java/com/github/catvod/spider/Freeok.java app/src/main/java/com/github/catvod/spider/Freeok.java
+         
          #cp ../app/src/main/java/com/github/catvod/spider/Douban.java app/src/main/java/com/github/catvod/spider/Douban.java
          #cp ../app/src/main/java/com/github/catvod/spider/Dm84.java app/src/main/java/com/github/catvod/spider/Dm84.java
          #cp ../app/src/main/java/com/github/catvod/spider/AppYsV2.java app/src/main/java/com/github/catvod/spider/AppYsV2.java
