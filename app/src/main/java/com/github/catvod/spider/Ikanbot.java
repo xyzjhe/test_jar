@@ -35,7 +35,7 @@ import okhttp3.Response;
 public class Ikanbot extends Spider {
 
 
-    private static final String siteUrl = "https://www.ikanbot.com";
+    private static final String siteUrl = "https://v.ikanbot.com/";
 
 
     private HashMap<String, String> getHeaders() {
